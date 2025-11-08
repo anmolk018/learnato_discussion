@@ -81,7 +81,7 @@ docker-compose up --build
 | Service | URL |
 |--------|-----|
 | Frontend | http://localhost:5173 |
-| Backend | http://localhost:4000 |
+| Backend | http://localhost:8011 |
 
 ---
 
@@ -89,8 +89,8 @@ docker-compose up --build
 
 | Location | Variable | Default |
 |---------|----------|---------|
-| Backend | `PORT` | `4000` |
-| Frontend | `VITE_API_URL` | `http://localhost:4000` |
+| Backend | `PORT` | `8011` |
+| Frontend | `VITE_API_URL` | `http://localhost:5173` |
 
 
 
