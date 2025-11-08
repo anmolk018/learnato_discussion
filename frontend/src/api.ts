@@ -1,4 +1,4 @@
-const API = import.meta.env.VITE_API_URL || 'http://localhost:4000'
+const API = import.meta.env.VITE_API_URL || 'http://localhost:8011'
 
 
 export async function fetchPosts() {
@@ -29,6 +29,7 @@ export async function upvote(postId: string) {
     const res = await fetch(`${API}/posts/${postId}/upvote`, { method: 'POST' })
     return res.json()
 }
+
 
 
 export default API
