@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    container_name: learnato-backend
+    ports:
+      - "8011:8011"
+    environment:
+      - PORT=8011
+
+  frontend:
+    build: ./frontend
+    container_name: learnato-frontend
+    ports:
+      - "5173:80"
+    environment:
+      - VITE_API_URL=http://localhost:8011

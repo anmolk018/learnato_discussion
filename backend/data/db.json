@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": "pAC8wnfEBW",
+      "title": "hksf",
+      "content": "saf",
+      "author": "Anonymous",
+      "votes": 6,
+      "createdAt": "2025-11-08T10:33:08.663Z",
+      "replies": [
+        {
+          "id": "MN1-XdYUud",
+          "postId": "pAC8wnfEBW",
+          "content": "test\n",
+          "author": "Anonymous",
+          "createdAt": "2025-11-08T10:33:58.256Z"
+        },
+        {
+          "id": "X9RQ9W0rbW",
+          "postId": "pAC8wnfEBW",
+          "content": "too\n",
+          "author": "Anonymous",
+          "createdAt": "2025-11-08T10:34:02.373Z"
+        }
+      ]
+    },
+    {
+      "id": "2nieX9Hoh4",
+      "title": "test",
+      "content": "content",
+      "author": "Anonymous",
+      "votes": 9,
+      "createdAt": "2025-11-08T10:32:53.259Z",
+      "replies": [
+        {
+          "id": "OjnFEOXmhD",
+          "postId": "2nieX9Hoh4",
+          "content": "test",
+          "author": "Anonymous",
+          "createdAt": "2025-11-08T10:33:25.896Z"
+        }
+      ]
+    }
+  ]
+}
