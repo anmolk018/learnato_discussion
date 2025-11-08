@@ -28,34 +28,36 @@ Built with:
 
 ## Project Structure
 
+````markdown
 │
 ├─ backend/ # Node.js + Express + LowDB storage
-│ ├─ src/
-│ ├─ data/db.json
-│ ├─ .env
-│ └─ Dockerfile
+│  ├─ src/
+│  ├─ data/db.json
+│  ├─ .env
+│  └─ Dockerfile
 │
 ├─ frontend/ # React + Vite + Tailwind
-│ ├─ src/
-│ ├─ .env
-│ └─ Dockerfile
+│  ├─ src/
+│  ├─ .env
+│  └─ Dockerfile
 │
 └─ docker-compose.yml
+
 
 
 ## 🖥️ Running Locally (Without Docker)
 
 ### Backend
-add .env file with (PORT=8011) (already added .env in the repo)
+*(Already added `.env` in the repo)*
 cd backend
 npm install
 npm run build
 npm run dev
 
-Backend runs on: 8011
+Backend runs on: http://localhost:8011
 
 ### Frontend
-
+*(Already added `.env` in the repo)*
 cd frontend
 add .env file with (VITE_API_URL=http://localhost:8011) (already added .env in the repo)
 npm install
@@ -63,9 +65,6 @@ npm run build
 npm run dev
 
 Frontend runs on: http://localhost:5173
-
-
-
 
 
 ## 🐳 Running with Docker
